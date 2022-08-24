@@ -37,7 +37,7 @@ const createRoutineMachineLayer = () => {
 
         store.dispatch(setCord([coord.lat, coord.lng]))
 
-      }, 2000);
+      }, 10*index);
     })
 
 
